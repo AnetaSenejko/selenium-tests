@@ -17,9 +17,8 @@ public class RegisterFormHappyPath {
     private WebDriver driver;
 
     @Before
-    public void setUp() throws Exception {
-        
-    	System.setProperty("webdriver.chrome.driver", "C:\\lkd\\ht\\apps_selenium\\app\\src\\chromedriver\\chromedriver.exe");
+    public void setUp() throws Exception {        
+    	System.setProperty("webdriver.chrome.driver", "chromedriver\\chromedriver.exe");
         driver = new ChromeDriver();
     }
 
